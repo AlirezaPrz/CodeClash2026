@@ -1,0 +1,36 @@
+{
+  "player_ships": [
+    {"name":"ship_1x4","coordinates":[[0,0],[0,1],[0,2],[0,3]],"hits":[]},
+    {"name":"ship_1x3","coordinates":[[2,2],[3,2],[4,2]],"hits":[]},
+    {"name":"ship_2x3","coordinates":[[5,0],[5,1],[5,2],[6,0],[6,1],[6,2]],"hits":[]},
+    {"name":"ship_1x2","coordinates":[[7,5],[7,6]],"hits":[]}
+  ],
+  "player_grid": [
+    ["M","N","N","N","N","N","N","N"],
+    ["N","M","N","N","N","N","N","N"],
+    ["N","N","N","N","N","N","N","N"],
+    ["N","N","N","N","N","N","N","N"],
+    ["N","N","N","N","N","N","N","N"],
+    ["N","N","N","N","N","N","N","N"],
+    ["N","N","N","N","N","N","N","N"],
+    ["N","N","N","N","N","N","N","N"]
+  ],
+  "opponent_grid": [
+    ["M","N","N","N","N","M","N","N"],
+    ["N","N","N","N","N","N","N","N"],
+    ["N","N","N","N","N","N","N","N"],
+    ["N","N","N","N","N","N","H","N"],
+    ["N","N","N","N","N","N","N","N"],
+    ["N","N","N","N","N","N","N","N"],
+    ["N","M","N","N","N","N","N","N"],
+    ["N","N","N","N","N","N","N","N"]
+  ],
+  "player_abilities": [
+    {"ability":"SP","info":{"None":{}}},
+    {"ability":"RF","info":{"None":{}}}
+  ],
+  "opponent_abilities": [
+    {"ability":"SD","info":{"None":{}}},
+    {"ability":"HS","info":{"None":{}}}
+  ]
+}
